@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1.1'
+  gem.add_runtime_dependency 'omniauth-oauth2', '>= 1.1.1'
 end
